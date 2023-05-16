@@ -20,6 +20,8 @@ Next, the habitability of the Earthlike planet in each iteration is estimated. T
 
 Finally, the eccentricity-adjusted habitability and the stability outcomes are combined, so that unstable systems have no habitability and systems that are more likely to become unstable have lower habitability. Using a spline, the area under this adjusted habitability curve is integrated. Comparing the total habitability of this configuration of giant planets to the total habitability of the basic model of habitability gives a relative habitability for a potential Earthlike planet in a system with this configuration of giant planets. This single value is the datapoint used for further analysis of the entire dataset.
 
+The figure `example_plot_single.png` shows the figure created from this analysis.
+
 # Visualization
 
 Given such a large and multidimensional dataset, a key part of my work was visualizing this data in a way that was understandable without being so simplified as to lose the relevant details.
