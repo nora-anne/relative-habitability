@@ -12,7 +12,7 @@ The zipped archive of NumPy arrays `param_m2_single39.npz` contains the results 
 The code file `plotting_single_relative_habitability.py` loads and analyzes a single set of simulations. In this case, it is set up for `param_m2_single39.npz`. Evaluating a single instance in this manner helps understand the data products to refine the analysis process so that it could be implemented in an automated manner for the entire dataset. It is also helpful for diving in to understand the results of the automated process for any given set of simulations.
 
 The figure `example_plot_single.png` shows the figure created from this analysis. The result of the analysis is a single value, the relative habitability. For the entire dataset, the relative habitabilities are collected and saved in the NumPy array `rel_hab_all.npy`.
-(example_plot_single.png)
+[](example_plot_single.png)
 
 # Visualization
 
