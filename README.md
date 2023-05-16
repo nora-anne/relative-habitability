@@ -27,6 +27,8 @@ Because the results of the violin plots so closely aligned for the inclination a
 
 # Open Access Data
 
-For purposes of validation and continued research, it was important to publish the entire dataset in a machine readable format for anyone else to make use of.
+For purposes of validation and continued research, it was important to publish the entire dataset in a machine-readable format for anyone else to make use of.
 
+The format of various NumPy arrays worked well for my own analysis but does not prepare the results to be easily used and understood by a third party. Thus I used the script in `create_relhab_table.py` to load all of the relevant arrays, compile them together correctly into a table, and save that table in a machine-readable format.
 
+This script is for the relative habitability results. Given that the individual stability outcomes would also be useful for someone wishing to use their own habitability model or to make another use of the rich dataset I created, I also compiled those results into a machine-readable table. Both tables had readmes that carefully explained each column for maximum re-use capability. The tables and readmes were uploaded to the site Zenodo, which helps enable open science. Thus the tables are [freely available for download](http://dx.doi.org/10.5281/zenodo.6324216) and have their own DOI and can be used for additional science or for verification of my results.
